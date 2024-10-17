@@ -76,16 +76,6 @@ public class TokParser {
         String id = new String(subBuf(leftPos, forward - 1));
         if ("true".equals(id)) {
             addTok(new Tok(Symbol.TRUE, id));
-        } else if ("false".equals(id)) {
-            addTok(new Tok(Symbol.FALSE, id));
-        } else if ("IF".equals(id)) {
-            addTok(new Tok(Symbol.IF, id));
-        } else if ("NOT".equals(id)) {
-            addTok(new Tok(Symbol.NOT, id));
-        } else if ("THEN".equals(id)) {
-            addTok(new Tok(Symbol.THEN, id));
-        } else if ("ELSE".equals(id)) {
-            addTok(new Tok(Symbol.ELSE, id));
         } else if ("OR".equals(id)) {
             addTok(new Tok(Symbol.OR, id));
         } else if ("AND".equals(id)) {
