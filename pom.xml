@@ -14,4 +14,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>https://packages.aliyun.com/maven/repository/2199569-release-g0CPo5/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>https://packages.aliyun.com/maven/repository/2199569-snapshot-KJJ4bU/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
